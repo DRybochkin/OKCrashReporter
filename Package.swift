@@ -31,7 +31,6 @@ let package = Package(
             sources: [
                 "Source"
             ],
-            publicHeadersPath: nil,
             cSettings: [
                 .define("PLCR_PRIVATE"),
                 .define("PLCF_RELEASE_BUILD"),
