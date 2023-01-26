@@ -36,6 +36,7 @@ let package = Package(
                 .define("PLCF_RELEASE_BUILD"),
                 .define("PLCRASHREPORTER_PREFIX", to: ""),
                 .define("SWIFT_PACKAGE"),
+                .headerSearchPath("Source/protobuf-c"),
                 .unsafeFlags(["-Wno-shorten-64-to-32"])
             ],
             linkerSettings: [
